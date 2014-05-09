@@ -23,7 +23,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'fog', '~> 1.22.0'
   s.add_runtime_dependency 'methadone'
   s.add_runtime_dependency 'thor', '~> 0.18.1'
-  s.add_development_dependency 'bundler', '~> 1.3'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec', '~> 2.14.1'
   s.add_development_dependency 'rspec-mocks', '~> 2.14.4'
