@@ -3,8 +3,8 @@ module Vcloud
   class FogInterface
     attr_accessor :vcloud
 
-    def initialize
-      self.vcloud = Fog::Compute::VcloudDirector.new
+    def initialize(vcloud = nil)
+      self.vcloud = vcloud || Fog::Compute::VcloudDirector.new
     end
 
     def org
